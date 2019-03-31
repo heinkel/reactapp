@@ -48,17 +48,17 @@ class DetailPopup extends Component {
     this.existInWatchList();
   }
   existInWatchList() {
-//     let local = localStorage.getItem("watchlist");
+    let local = localStorage.getItem("watchlist");
     
-//     if(local){
-//     local = JSON.parse(local);
+    if(local){
+    local = JSON.parse(local);
 
-//     local.forEach(value => {
-//       if (value.id === this.props.movieid) {
-//         this.setState({ watchlist: true });
-//       }
-//     });
-//     }
+    local.forEach(value => {
+      if (value.id === this.props.movieid) {
+        this.setState({ watchlist: true });
+      }
+    });
+    }
   }
 
   addWatchlist() {
