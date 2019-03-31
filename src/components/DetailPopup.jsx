@@ -49,6 +49,8 @@ class DetailPopup extends Component {
   }
   existInWatchList() {
     let local = localStorage.getItem("watchlist");
+    
+    if(local){
     local = JSON.parse(local);
 
     local.forEach(value => {
@@ -56,6 +58,7 @@ class DetailPopup extends Component {
         this.setState({ watchlist: true });
       }
     });
+    }
   }
 
   addWatchlist() {
