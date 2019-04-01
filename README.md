@@ -1,20 +1,12 @@
-# Project Name
+### Project Name
 
-> My very first react project using TMDb API
+My very first react project using TMDb API
 
-## Table of contents
-
-- [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-
-## General info
+### General info
 
 A small, responsive single-page application which provides visitors the ability to browse and interact with an online catalog of movies.
 
-## Screenshots
+### Screenshots
 
 you can search Popular, Top-rated, Upcoming and Now Playing movies.
 ![Example screenshot](./img/screenshot_1.png)
@@ -28,7 +20,7 @@ you can also add movie to watch list
 ![Example screenshot](./img/screenshot_6.png)
 ![Example screenshot](./img/screenshot_7.png)
 
-## I have installed the following NPM packages
+### I have installed the following NPM packages
 
 - npm i -g create-react-app
 - npm i jquery
