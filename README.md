@@ -8,18 +8,22 @@ A small, responsive single-page application which provides visitors the ability 
 
 ### Screenshots
 
-######you can search Popular, Top-rated, Upcoming and Now Playing movies.
+`you can search Popular, Top-rated, Upcoming and Now Playing movies.`
 
 ![Example screenshot](./img/screenshot_1.png)
 
-######you can see the movie detail and you can also watch trailer
+`you can see the movie detail and you can also watch trailer`
 
 ![Example screenshot](./img/screenshot_3.png)
+
 ![Example screenshot](./img/screenshot_5.png)
+
 ![Example screenshot](./img/screenshot_4.png)
 
-######you can also add movie to watch list
+`you can also add movie to watch list`
+
 ![Example screenshot](./img/screenshot_6.png)
+
 ![Example screenshot](./img/screenshot_7.png)
 
 ### I have installed the following NPM packages
