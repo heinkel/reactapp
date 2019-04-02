@@ -7,7 +7,8 @@ $position: (
 
 $fontfamily: (
   font-1: Helvetica,
-  font-2: SFCompactDisplay
+  font-2: SFCompactDisplay,
+  font-3: SFCompact
 );
 
 $color: (
@@ -39,7 +40,7 @@ $lineheight: (
 }
 
 .header {
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
   font-size: 25px;
   line-height: map-get($lineheight, height_1);
   color: map-get($color, white_color);
@@ -65,7 +66,7 @@ $lineheight: (
   padding: 4px;
 }
 .donutchart-text {
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
 }
 .donutchart-text-val {
   fill: map-get($color, white_color);
@@ -81,13 +82,13 @@ $lineheight: (
   font-size: 9px;
 }
 .chart-text {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 12px;
   line-height: map-get($lineheight, height_1);
   color: map-get($color, color_4);
 }
 .chart-text-1 {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 12px;
   color: map-get($color, color_4);
 }
@@ -123,13 +124,13 @@ $lineheight: (
 .cardtitle-1 {
   display: inline-grid;
   width: 100%;
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
   font-size: 15px;
   color: map-get($color, color_2);
 }
 .cardsub-1,
 .cardsub-2 {
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
   font-size: 10px;
   color: map-get($color, white_color);
 }
@@ -149,14 +150,14 @@ $lineheight: (
 .footer-vote {
   background-color: map-get($color, color_3);
   border-radius: 4px;
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 24px;
   line-height: map-get($lineheight, height_3);
   color: map-get($color, color_2);
   padding: 10px;
 }
 .footer-remove {
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
   font-size: 15px;
   line-height: 15px;
   text-align: center;
@@ -188,9 +189,10 @@ $lineheight: (
 // Cast
 .cast-img {
   width: 100px;
+  height: fit-content;
 }
 .cast-title {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 14px;
 }
 .cast-sub {
@@ -199,7 +201,7 @@ $lineheight: (
 
 // MovieComponent
 .overlay-title {
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
   font-size: 20px;
   line-height: map-get($lineheight, height_1);
   color: map-get($color, color_2);
@@ -289,7 +291,7 @@ $lineheight: (
   color: map-get($color, color_4);
 }
 .detail-header {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 40px;
   line-height: map-get($lineheight, height-1);
   color: map-get($color, color_2);
@@ -335,14 +337,14 @@ $lineheight: (
   background: map-get($color, color_1);
 }
 .trailer-text {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 10px;
   line-height: map-get($lineheight, height_1);
   color: map-get($color, color_2);
 }
 
 .textstyle-1 {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 14px;
   line-height: map-get($lineheight, height_1);
   padding-right: 2em;
@@ -363,13 +365,13 @@ $lineheight: (
 }
 
 .sub-header {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 20px;
   line-height: map-get($lineheight, height_1);
 }
 
 .overview {
-  font-family: map-get($fontfamily, font-1);
+  font-family: map-get($fontfamily, font-3);
   font-size: 15px;
   line-height: map-get($lineheight, height_4);
   text-align: justify;
@@ -378,7 +380,7 @@ $lineheight: (
 }
 
 .backlist {
-  font-family: map-get($fontfamily, font-2);
+  font-family: map-get($fontfamily, font-3);
   font-size: 14px;
   line-height: map-get($lineheight, height_1);
   color: map-get($color, color_2);

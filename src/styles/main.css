@@ -159,7 +159,7 @@
 }
 
 .header {
-  font-family: Helvetica;
+  font-family: SFCompact;
   font-size: 25px;
   line-height: 30px;
   color: white;
@@ -188,7 +188,7 @@
 }
 
 .donutchart-text {
-  font-family: Helvetica;
+  font-family: SFCompact;
 }
 
 .donutchart-text-val {
@@ -209,14 +209,14 @@
 
 .chart-text, .bookmark,
 .add-watchlist {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 12px;
   line-height: 30px;
   color: #e2e5ef;
 }
 
 .chart-text-1 {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 12px;
   color: #e2e5ef;
 }
@@ -258,14 +258,14 @@
   display: -ms-inline-grid;
   display: inline-grid;
   width: 100%;
-  font-family: Helvetica;
+  font-family: SFCompact;
   font-size: 15px;
   color: #50e3c2;
 }
 
 .cardsub-1,
 .cardsub-2 {
-  font-family: Helvetica;
+  font-family: SFCompact;
   font-size: 10px;
   color: white;
 }
@@ -289,7 +289,7 @@
 .footer-vote {
   background-color: #3c4665;
   border-radius: 4px;
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 24px;
   line-height: 29px;
   color: #50e3c2;
@@ -297,7 +297,7 @@
 }
 
 .footer-remove {
-  font-family: Helvetica;
+  font-family: SFCompact;
   font-size: 15px;
   line-height: 15px;
   text-align: center;
@@ -330,10 +330,13 @@
 
 .cast-img {
   width: 100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .cast-title, .crew-job, .crew-name {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 14px;
 }
 
@@ -342,7 +345,7 @@
 }
 
 .overlay-title {
-  font-family: Helvetica;
+  font-family: SFCompact;
   font-size: 20px;
   line-height: 30px;
   color: #50e3c2;
@@ -440,7 +443,7 @@
 }
 
 .detail-header {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 40px;
   color: #50e3c2;
   padding-top: 1em;
@@ -488,14 +491,14 @@
 }
 
 .trailer-text {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 10px;
   line-height: 30px;
   color: #50e3c2;
 }
 
 .textstyle-1 {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 14px;
   line-height: 30px;
   padding-right: 2em;
@@ -516,13 +519,13 @@
 }
 
 .sub-header {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 20px;
   line-height: 30px;
 }
 
 .overview {
-  font-family: Helvetica;
+  font-family: SFCompact;
   font-size: 15px;
   line-height: 20px;
   text-align: justify;
@@ -531,7 +534,7 @@
 }
 
 .backlist {
-  font-family: SFCompactDisplay;
+  font-family: SFCompact;
   font-size: 14px;
   line-height: 30px;
   color: #50e3c2;

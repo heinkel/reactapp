@@ -62,7 +62,11 @@ class Cast extends Component {
           key={index}
           style={{ border: "none", marginRight: "1em" }}
         >
-          <CardImg src={path} alt={value} style={{ borderRadius: "0px" }} />
+          <CardImg
+            src={path}
+            alt={value}
+            style={{ borderRadius: "0px", width: "100%", height: "140px" }}
+          />
           <CardBody style={{ padding: "0" }}>
             <CardTitle className="cast-title">
               {this.state.name[index]}
