@@ -233,9 +233,12 @@ class App extends Component {
 
         <div className="main">
           <div className="header">
-            {this.state.tabactive === "movie" ? "All Movies" : "WatchList"}
+            {this.state.tabactive === "movie" ? "All Movies" : "My Watchlist"}
             <br />
-            <hr className="line-2" />
+            <hr
+              className="line-2"
+              style={this.state.tabactive === "movie" ? {} : { width: "130px" }}
+            />
           </div>
           <div className="search">
             <FaSearch className="search-icon" />
